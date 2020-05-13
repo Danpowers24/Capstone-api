@@ -1,4 +1,4 @@
-curl "http://localhost:4741/quizzes" \
+curl "http://localhost:4741/questions" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
@@ -10,7 +10,9 @@ curl "http://localhost:4741/quizzes" \
       "answer2": "'"${A2}"'",
       "answer3": "'"${A3}"'",
       "answer4": "'"${A4}"'",
-      "answerkey": "'"${AK}"'"
+      "answerkey": "'"${AK}"'",
+      "quiz_id": "'"${QUIZID}"'",
+      "user_id": "'"${USERID}"'"
     }
   }'
 

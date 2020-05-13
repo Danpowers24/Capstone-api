@@ -8,7 +8,7 @@ curl "http://localhost:4741/quizzes" \
   --data '{
     "quiz": {
       "name": "'"${NAME}"'",
-      "description": "'"${DESCRIPTION}"'",
+      "description": "'"${D}"'",
       "user_id": "'"${USERID}"'"
     }
   }'
