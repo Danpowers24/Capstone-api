@@ -30,11 +30,10 @@ Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin cof
 
 Verb         |	URI Pattern
 ------------ | -------------
-GET | /resources
-GET | /resources/:id
-POST | /resources
-PATCH | /resources/:id
-DELETE | /resources/:id
+GET | /quizzes
+POST | /quizzes
+PATCH | /quizzes/:id
+DELETE | /quizzes/:id
 
 ### Unsolved Problems
 
