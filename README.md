@@ -1,7 +1,7 @@
 
-# Application Title: A Description
+# MESA: Medical Education Study Application
 
-This application allows the user to create quizzes. This application was inspired by the need for a way for [PACTS](http://csph.brighamandwomens.org/cultural-dexterity-nih-r01-awarded/) researchers to test surgeons on whether or not they were retaining knowledge from the curriculum the researchers were developing.
+This the back-end repo for MESA, the application allows a user to create quizzes. This API was built with Ruby on Rails. MESA was inspired by the need for a way for [PACTS](http://csph.brighamandwomens.org/cultural-dexterity-nih-r01-awarded/) researchers to test surgeons on whether or not they were retaining knowledge from the curriculum the researchers were developing.
 
 ## Setup Steps
 
@@ -11,29 +11,19 @@ This application allows the user to create quizzes. This application was inspire
 
 ## Important Links
 
-- [Other Repo](www.link.com)
-- [Deployed API](www.link.com)
-- [Deployed Client](www.link.com)
+- [Front-end Repo](https://github.com/Danpowers24/Capstone-client)
+- [Deployed API](https://git.heroku.com/shielded-ridge-23072.git)
+- Check out the client application [here](https://danpowers24.github.io/Capstone-client/)
 
 ## Planning Story
 
 Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin coffee williamsburg af poutine fingerstache austin semiotics paleo man braid vexillologist. Tumeric literally banjo pickled disrupt cold-pressed thundercats shoreditch try-hard health goth intelligentsia pop-up small batch skateboard farm-to-table. Meh tofu fam, direct trade tattooed stumptown etsy everyday carry activated charcoal. Neutra cornhole polaroid literally salvia, listicle tofu.
 
-### User Stories
-
-- As a user I want to sign in/up
-- As a user I want to Create a new < resource >
-- As a user I want to Read multiple < resources >
-- As a user I want to Read a single < resource >
-- As a user I want to Update a < resource > I own
-- As a user I want to Delete a < resource > I own
-
 ### Technologies Used
 
-- jQuery
-- HTML/CSS
-- Bootstrap
-- Javascript
+- Ruby
+- Rails
+- Heroku
 
 ### Catalog of Routes
 
@@ -47,8 +37,8 @@ DELETE | /resources/:id
 
 ### Unsolved Problems
 
-- Still need to ....
-- Would like to eventually ....
+- The application currently does not allow the user to take a quiz. I would love to implement that functionality in the next version.
+- I would like to eventually allow administrators to create the quizzes and only let users take quizzes.
 
 ## Images
 
