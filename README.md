@@ -24,6 +24,7 @@ Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin cof
 - Ruby
 - Rails
 - Heroku
+- cURL
 
 ### Catalog of Routes
 
