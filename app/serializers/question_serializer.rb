@@ -3,7 +3,4 @@ class QuestionSerializer < ActiveModel::Serializer
   has_one :quiz
   has_one :user
 
-  def editable
-    scope == object.user
-  end
 end
