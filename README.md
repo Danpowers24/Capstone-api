@@ -17,7 +17,13 @@ This the back-end repo for MESA, the application allows a user to create quizzes
 
 ## Planning Story
 
-Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin coffee williamsburg af poutine fingerstache austin semiotics paleo man braid vexillologist. Tumeric literally banjo pickled disrupt cold-pressed thundercats shoreditch try-hard health goth intelligentsia pop-up small batch skateboard farm-to-table. Meh tofu fam, direct trade tattooed stumptown etsy everyday carry activated charcoal. Neutra cornhole polaroid literally salvia, listicle tofu.
+As I do with every project, I started by creating a Trello board. I added some ideas for the application and brainstormed how the different ideas would look. After committing to the quiz application idea, I drew up some ERD's and wireframes on draw.io.
+
+I jumped into a Zoom room with some classmates and we went through the basic setup of the back end together. We did the same for setting up the front end from a React template. From here, we split off and I started to create resources and their relationship to the user. I tested each resource with cURL scripts to make sure the routes were set up correctly before coding any features into the front end.
+
+When stuck on an issue, I like to collaborate with my classmates. I will either ask them for help, or I will take a break and help with their bug. I really benefit from taking a small break and coming back to a bug with a fresh set of eyes.
+
+During the home stretch I relied heavily on GA's issue queue, googling issues, and recalling the work I have done on past projects. Experience is a great teacher, whether it is my own or someone else's.
 
 ### Technologies Used
 
@@ -35,22 +41,12 @@ POST | /quizzes
 PATCH | /quizzes/:id
 DELETE | /quizzes/:id
 
-### Unsolved Problems
-
-- The application currently does not allow the user to take a quiz. I would love to implement that functionality in the next version.
-- I would like to eventually allow administrators to create the quizzes and only let users take quizzes.
-
-## Images
-
-#### App Screenshot:
-![screenshot](https://media.idownloadblog.com/wp-content/uploads/2017/07/Select-Instagram-story-to-save-to-iPhone.jpeg)
-
----
-
-#### Wireframe:
-![wireframe](https://lucidchart.zendesk.com/hc/article_attachments/360001080866/Facebook_Wireframe_-_New_Page.png)
-
 ---
 
 #### ERD:
 ![ERD](https://i.imgur.com/uMAPdyN.png)
+
+### Unsolved Problems
+
+- The application currently does not allow the user to take a quiz. I would love to implement that functionality in the next version.
+- I would like to eventually allow administrators to create the quizzes and only let users take quizzes.
