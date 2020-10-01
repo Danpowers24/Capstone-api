@@ -7,7 +7,7 @@ This the back-end repo for MESA, the application allows a user to create quizzes
 
 1. [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone) this repository.
 1. Run `install command` to install all dependencies
-1. Use `start command` to spin up the server.
+1. Use `bin/rails server` to spin up the server.
 
 ## Important Links
 
